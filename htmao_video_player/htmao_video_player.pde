@@ -3,6 +3,20 @@ import processing.video.*;
 
 import java.util.Arrays;
 
+import java.awt.Frame;
+import processing.awt.PSurfaceAWT;
+import processing.awt.PSurfaceAWT.SmoothCanvas;
+ 
+ 
+PSurface initSurface() {
+  PSurface pSurface = super.initSurface();
+  PSurfaceAWT awtSurface = (PSurfaceAWT) surface;
+  SmoothCanvas smoothCanvas = (SmoothCanvas) awtSurface.getNative();
+  Frame frame = smoothCanvas.getFrame();
+  frame.setUndecorated(true);
+  return pSurface;
+}
+
 static final Boolean IS_FULLSCREEN = false;
 static final String[] PATHS = {"videos/neg/", "videos/neutral/", "videos/pos/"};
 static final int OSC_PORT = 10000;                    
@@ -22,6 +36,7 @@ void settings(){
 
 void setup() {
   background(0);
+  surface.setLocation(0, 0);
   
   oscP5 = new OscP5(this, OSC_PORT);
   
