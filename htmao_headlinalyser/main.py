@@ -201,14 +201,14 @@ def train():
         loss=losses.SparseCategoricalCrossentropy(from_logits=False), optimizer="adam", metrics=['accuracy']
     )
 
-    examples = [
-        "Don't believe hydrogen and nuclear hype – they can’t get us to net zero carbon by 2050",
-        "‘Reading the writing on the wall’: why Wall Street is acting on the climate crisis",
-        "New US vehicles must be electric by 2030 to meet climate goals – report",
-        "Ministers watering down green pledges post-Brexit, study finds"
-    ]
+    # examples = [
+    #     "Don't believe hydrogen and nuclear hype – they can’t get us to net zero carbon by 2050",
+    #     "‘Reading the writing on the wall’: why Wall Street is acting on the climate crisis",
+    #     "New US vehicles must be electric by 2030 to meet climate goals – report",
+    #     "Ministers watering down green pledges post-Brexit, study finds"
+    # ]
 
-    print(export_model.predict(examples))
+    # print(export_model.predict(examples))
 
     return export_model
 
