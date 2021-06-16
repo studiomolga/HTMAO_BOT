@@ -151,13 +151,13 @@ def train():
         text = tf.expand_dims(text, -1)
         return vectorize_layer(text), label
 
-    raw_train_ds = tf.keras.preprocessing.text_dataset_from_directory('headline_sentiment/train',
+    raw_train_ds = tf.keras.preprocessing.text_dataset_from_directory(TRAIN_PATH,
                                                                       batch_size=BATCH_SIZE,
                                                                       validation_split=0.2,
                                                                       subset='training',
                                                                       seed=SEED)
 
-    raw_val_ds = tf.keras.preprocessing.text_dataset_from_directory('headline_sentiment/train',
+    raw_val_ds = tf.keras.preprocessing.text_dataset_from_directory(TRAIN_PATH,
                                                                     batch_size=BATCH_SIZE,
                                                                     validation_split=0.2,
                                                                     subset='validation',
