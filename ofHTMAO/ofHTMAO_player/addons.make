@@ -1,0 +1,2 @@
+ofxHPVPlayer
+ofxOsc
