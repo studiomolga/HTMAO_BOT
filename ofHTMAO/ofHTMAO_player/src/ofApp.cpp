@@ -5,7 +5,6 @@ void ofApp::setup()
 {
     ofHideCursor();
     HPV::InitHPVEngine();
-
     hpvPlayer.init(HPV::NewPlayer());
 
     loadDirs();
@@ -13,6 +12,11 @@ void ofApp::setup()
     // listen on the given port
     ofLogNotice("listening for osc messages on port " + ofToString(OSC_PORT));
     receiver.setup(OSC_PORT);
+
+    win1->setWid(1);
+    win2->setWid(2);
+
+    loadMovie(paths[0][0]);
 }
 
 //--------------------------------------------------------------
@@ -52,8 +56,12 @@ void ofApp::draw()
 {
     ofBackground(0);
 
+    ofTexture * tex = hpvPlayer.getTexturePtr();
+    win1->setTexture(tex);
+    win2->setTexture(tex);
+
     if(soundPlayer.isPlaying()){
-        hpvPlayer.draw(0,0,ofGetWidth(), ofGetHeight());
+        tex->drawSubsection(0, 0, 1920, 1080, 0, 0, 1920, 1080);
     }
 }
 

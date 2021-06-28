@@ -3,6 +3,7 @@
 #include "ofMain.h"
 #include "ofxHPVPlayer.h"
 #include "ofxOsc.h"
+#include "extrawindow.h"
 
 #define VIDEOS_PATH "movies"
 #define OSC_PORT 10000
@@ -29,4 +30,7 @@ public:
     ofxHPVPlayer hpvPlayer;
     ofSoundPlayer soundPlayer;
     ofxOscReceiver receiver;
+
+    shared_ptr<ExtraWindow> win1;
+    shared_ptr<ExtraWindow> win2;
 };
