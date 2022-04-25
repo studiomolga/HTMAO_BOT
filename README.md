@@ -11,7 +11,7 @@
 - Processor: Intel i7 8 core
 - Memory: 16GB minimum
 - Videocard: at least nvidia gtx 1060/1070/1080 but for sure no AMD!
-- Operating system: ubuntu with the nvidia drivers installed and working
+- Operating system: ubuntu 20.04 LTS with the nvidia drivers installed and working
 
 
 ### Installation:
