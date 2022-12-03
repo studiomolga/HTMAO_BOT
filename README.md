@@ -12,6 +12,7 @@
 - Memory: 16GB minimum
 - Videocard: at least nvidia gtx 1060/1070/1080 but for sure no AMD!
 - Operating system: ubuntu 20.04 LTS with the nvidia drivers installed and working
+- nvidia drivers link https://www.cyberciti.biz/faq/ubuntu-linux-install-nvidia-driver-latest-proprietary-driver/#:~:text=You%20can%20install%20Nvidia%20drivers,laptop%20to%20load%20the%20drivers
 
 
 ### Installation:
