@@ -28,9 +28,6 @@
 - `sudo apt install python3-pip`
 - `pip3 install numpy feedparser tensorflow==2.4.0 schedule pyliblo3`
 
-_There might be an error_ 
-(https://user-images.githubusercontent.com/1223253/205468621-fa46fbaf-7a90-46fa-8ec3-781076054446.png)
-
 
 - `sudo apt install git`
 then download project file:
