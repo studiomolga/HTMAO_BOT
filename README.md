@@ -27,7 +27,7 @@
 - `sudo apt update && sudo apt upgrade && sudo apt install liblo-dev`
 - `sudo apt install python3-pip`
 - `pip3 install numpy feedparser tensorflow==2.4.0 schedule pyliblo3`
-
+- 'pip install numpy==1.19.2 protobuf==3.9.2'
 
 - `sudo apt install git`
 then download project file:
