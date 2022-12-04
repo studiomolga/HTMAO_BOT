@@ -16,8 +16,6 @@
 
 
 ### Installation:
-
-
 *openframeworks*
 - download and install openframeworks
 - download [openframeworks 0.11](https://github.com/openframeworks/openFrameworks/releases/download/0.11.2/of_v0.11.2_linux64gcc6_release.tar.gz) and unpack
@@ -29,7 +27,7 @@
 - `sudo apt install python3-pip`
 - `pip3 install numpy feedparser tensorflow==2.4.0 schedule pyliblo3`
 
-_There might be an error_
+_There might be an error_ 
 (https://user-images.githubusercontent.com/1223253/205468621-fa46fbaf-7a90-46fa-8ec3-781076054446.png)
 
 
@@ -46,10 +44,8 @@ _(type in terminal `mv ofHTMAO/ofHTMAO_player [OF_FOLDER]/apps/myApps`)_
 - cd to ofHTMAO_player folder  and run `make` to compile the application
 - download and put in correct place the video files, `[OF_FOLDER]/apps/myApps/ofHTMAO_player/bin/data/movies`, the external drive will be provided
 
-### TEST:
-
-???????????
-
 
 ### Autostart on boot:
-- *some guide to auto starting on boot* ??????????????????????? 
+- put the correct paths in either the `three_screens.sh` or `four_screens.sh`, both found in the scripts folder
+- press the windows key once and type startup, you will find the application `Startup Applications`, open it and add one of the two script files there
+- reboot, and it should run
