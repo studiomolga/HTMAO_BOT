@@ -37,8 +37,7 @@ then download project file:
 *moirologist bot*
 - move `ofHTMAO/ofHTMAO_player` to `[OF_FOLDER]/apps/myApps` in the OF folder
 _(type in terminal `mv ofHTMAO/ofHTMAO_player [OF_FOLDER]/apps/myApps`)_
-- move `ofHTMAO/ofxHPVPlayer` to `[OF_FOLDER]/addons` in the OF folder
-- _(type in terminal `mv ofHTMAO/ofxHPVPlayer ofHTMAO/ofxHPVPlayer`)_
+- move `ofHTMAO/ofxHPVPlayer` to `[OF_FOLDER]/addons` in the OF folder _(type in terminal `mv ofHTMAO/ofxHPVPlayer ofHTMAO/ofxHPVPlayer`)_
 - cd to ofHTMAO_player folder  and run `make` to compile the application
 - download and put in correct place the video files, `[OF_FOLDER]/apps/myApps/ofHTMAO_player/bin/data/movies`, the external drive will be provided
 
