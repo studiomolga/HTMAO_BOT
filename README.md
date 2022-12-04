@@ -13,7 +13,7 @@
 - Videocard: at least nvidia gtx 1060/1070/1080 but for sure no AMD!
 - Operating system: ubuntu 20.04 LTS https://releases.ubuntu.com/20.04.5/?_ga=2.227723037.1287600826.1670160231-2072636695.1669851777
 
-- the nvidia drivers: press the 'window' key on the keyboard and in search option type: additional drivers. From there select the Nvidia driver 525 opem kernel IF you have nvidia GEFORCE RTX
+- the nvidia drivers: press the 'window' key on the keyboard and in search option type: additional drivers. From there select the 'Nvidia driver 525 opem kernel tested' IF you have nvidia GEFORCE RTX. You might want to change your NVIDIA menu from 'on demand' to 'Performance mode'. Reboot. 
 
 
 ### Installation:
