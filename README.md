@@ -11,8 +11,9 @@
 - Processor: Intel i7 8 core
 - Memory: 16GB minimum
 - Videocard: at least nvidia gtx 1060/1070/1080 but for sure no AMD!
-- Operating system: ubuntu 20.04 LTS with the nvidia drivers installed and working
-- nvidia drivers link https://www.cyberciti.biz/faq/ubuntu-linux-install-nvidia-driver-latest-proprietary-driver/#:~:text=You%20can%20install%20Nvidia%20drivers,laptop%20to%20load%20the%20drivers
+- Operating system: ubuntu 20.04 LTS https://releases.ubuntu.com/20.04.5/?_ga=2.227723037.1287600826.1670160231-2072636695.1669851777
+
+- the nvidia drivers: press the 'window' key on the keyboard and in search option type: additional drivers. From there select the 'Nvidia driver 525 opem kernel tested' IF you have nvidia GEFORCE RTX. You might want to change your NVIDIA menu from 'on demand' to 'Performance mode'. Reboot. 
 
 
 ### Installation:
@@ -26,10 +27,7 @@
 - `sudo apt update && sudo apt upgrade && sudo apt install liblo-dev`
 - `sudo apt install python3-pip`
 - `pip3 install numpy feedparser tensorflow==2.4.0 schedule pyliblo3`
-
-_There might be an error_ 
-(https://user-images.githubusercontent.com/1223253/205468621-fa46fbaf-7a90-46fa-8ec3-781076054446.png)
-
+- 'pip install numpy==1.19.2 protobuf==3.9.2'
 
 - `sudo apt install git`
 then download project file:
@@ -39,8 +37,7 @@ then download project file:
 *moirologist bot*
 - move `ofHTMAO/ofHTMAO_player` to `[OF_FOLDER]/apps/myApps` in the OF folder
 _(type in terminal `mv ofHTMAO/ofHTMAO_player [OF_FOLDER]/apps/myApps`)_
-- move `ofHTMAO/ofxHPVPlayer` to `[OF_FOLDER]/addons` in the OF folder
-- _(type in terminal `mv ofHTMAO/ofxHPVPlayer ofHTMAO/ofxHPVPlayer`)_
+- move `ofHTMAO/ofxHPVPlayer` to `[OF_FOLDER]/addons` in the OF folder _(type in terminal `mv ofHTMAO/ofxHPVPlayer ofHTMAO/ofxHPVPlayer`)_
 - cd to ofHTMAO_player folder  and run `make` to compile the application
 - download and put in correct place the video files, `[OF_FOLDER]/apps/myApps/ofHTMAO_player/bin/data/movies`, the external drive will be provided
 
