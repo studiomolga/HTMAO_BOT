@@ -47,5 +47,6 @@ _(type in terminal `mv ofHTMAO/ofHTMAO_player [OF_FOLDER]/apps/myApps`)_
 
 ### Autostart on boot:
 - put the correct paths in either the `three_screens.sh` or `four_screens.sh`, both found in the scripts folder
+  the correct paths can be found in `HTMAO_BOT/htmao_headlinalyser/main.py` for the python file, this can be found in the repo directory. For the openframeworks app you can find the correct path in the `[OF_FOLDER]/apps/myApps/OF_HTMAO_player` folder. For both folder make sure to add them from `/` so they would begin with `/home/........` 
 - press the windows key once and type startup, you will find the application `Startup Applications`, open it and add one of the two script files there
 - reboot, and it should run
