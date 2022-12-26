@@ -48,9 +48,9 @@ _(type in terminal `mv ofHTMAO/ofHTMAO_player [OF_FOLDER]/apps/myApps`)_
 - press the windows key once and type startup, you will find the application `Startup Applications`, open it and add one of the two script files there
 - reboot, and it should run
 
-###### NOTES
+### *notes*
 
-python 3.8.10 - tested version
-remember to remove all zips files from the respective folders of the MOVIE folder
-computer display / power set to never going to sleep
-install teamviwer, check for it to always be on the reboot and give it a static password
+- python 3.8.10 - tested version
+- remember to remove all zips files from the respective folders of the MOVIE folder
+- computer display / power set to never going to sleep
+- install teamviwer, check for it to always be on the reboot and give it a static password
