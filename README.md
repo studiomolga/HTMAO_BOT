@@ -47,3 +47,10 @@ _(type in terminal `mv ofHTMAO/ofHTMAO_player [OF_FOLDER]/apps/myApps`)_
   the correct paths can be found in `HTMAO_BOT/htmao_headlinalyser/main.py` for the python file, this can be found in the repo directory. For the openframeworks app you can find the correct path in the `[OF_FOLDER]/apps/myApps/OF_HTMAO_player` folder. For both folder make sure to add them from `/` so they would begin with `/home/........` 
 - press the windows key once and type startup, you will find the application `Startup Applications`, open it and add one of the two script files there
 - reboot, and it should run
+
+###### NOTES
+
+python 3.8.10 - tested version
+remember to remove all zips files from the respective folders of the MOVIE folder
+computer display / power set to never going to sleep
+install teamviwer, check for it to always be on the reboot and give it a static password
